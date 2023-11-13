@@ -1,0 +1,60 @@
+.carusel-card {
+  z-index: 99;
+  transform: translateY(-75px);
+  border-radius: 20px;
+  padding: 8px;
+  margin: 0;
+}
+.carusel-card .card-image {
+  height: auto;
+  border: 1px solid #ddd;
+  width: 120px;
+  height: 120px;
+}
+.carusel-card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.carusel-card h4,
+.carusel-card h5 {
+  margin: 2px;
+}
+.carusel-card h4 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.carusel-card h5 {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.stores-box {
+  margin-top: -12px;
+  border-radius: 15px;
+  padding: 7px 0px 10px;
+}
+.stores-card {
+  margin: 0px 5px;
+  padding: 0;
+}
+.stores-box .title {
+  font-size: 1rem;
+  padding-left: 12px;
+  font-weight: 600;
+}
+.stores-card img {
+  border-radius: 10px;
+}
+.search-page h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.stores-card h5 {
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: bold;
+}
+.price-btn {
+  padding: 0;
+  min-height: 0px;
+}

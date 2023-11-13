@@ -1,0 +1,48 @@
+.toolbar {
+  --background: #8c939e;
+  min-height: 176px;
+  border-radius: 0px 0px 17px 17px;
+  margin: 0;
+}
+.toolbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  padding-top: 45px;
+  color: #fff;
+}
+ion-searchbar.custom {
+  margin-top: 15px;
+}
+ion-searchbar.custom .searchbar-input-container {
+  --background: #fff;
+  --color: #eaeaea;
+  --placeholder-color: #c5c4c4;
+  --icon-color: #5b5959;
+  --clear-button-color: #fff;
+  --border-radius: 25px;
+  height: 50px;
+}
+
+ion-card {
+  box-shadow: none;
+}
+.home-card {
+  margin: 27px 5px 0;
+}
+.card-image {
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.card-content {
+  padding: 0;
+}
+.card-content h4 {
+  font-weight: 600;
+}
+.card-content p {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}

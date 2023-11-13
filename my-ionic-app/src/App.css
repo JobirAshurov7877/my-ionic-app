@@ -1,0 +1,9 @@
+ion-tab-bar {
+  background-color: #4f5258;
+  height: 90px;
+  border-radius: 26px 26px 0px 0px;
+}
+ion-tab-button {
+  background-color: transparent;
+  color: #fff;
+}
