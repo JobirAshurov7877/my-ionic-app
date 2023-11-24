@@ -1,0 +1,60 @@
+.user-profile {
+  font-family: var(--font-Inter);
+}
+.user-profile .page-header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-profile .head {
+  display: flex;
+  justify-content: space-between;
+}
+.user-profile .head .button {
+  width: 50px;
+  color: #24cef0;
+}
+.user-profile .head .button ion-text {
+  background: var(--bg, linear-gradient(90deg, #24cef0 -6.3%, #24ebca 100.57%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-Inter);
+  font-weight: 600;
+}
+.user-profile .page-header ion-avatar {
+  width: 85px;
+  height: 85px;
+}
+.user-profile .page-header .name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.user-profile-title {
+  display: block;
+  font-size: 18px;
+  margin: 20px 0;
+  font-family: var(--font-Inter);
+}
+.accordion {
+  background: var(--primary-background);
+}
+.accordion .ion-accordion-toggle-icon {
+  transform: rotate(270deg);
+  font-size: 18px;
+}
+.accordion-item {
+  --background: transparent !important;
+  --color: #ffff;
+  --border-color: rgba(255, 255, 255, 0);
+  --padding-start: 0;
+}
+.accordion-item .accordion-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.accordion-content {
+  color: #fff;
+}

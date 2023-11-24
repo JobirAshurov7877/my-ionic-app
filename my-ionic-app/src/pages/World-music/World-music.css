@@ -1,0 +1,47 @@
+.world-music-container {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-Poppins);
+}
+.world-music-container ion-row {
+  width: 100%;
+}
+.world-music .page-header {
+  height: 60px;
+}
+.world-music .skip {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.world-music .world-music-content {
+  width: 100%;
+}
+.world-music .world-music-content h2 {
+  font-size: 27px;
+}
+.world-music .world-music-content p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 148%;
+}
+.swipper-button {
+  width: 100%;
+}
+.world-music-btn {
+  width: 70px;
+  min-height: 40px;
+  --background: var(--linear-gradient-color);
+  --border-radius: 3px;
+  float: right;
+  font-weight: 400;
+  font-family: var(--font-Roboto);
+  font-size: 1rem;
+}
+.world-music .swiper .swiper-slide img {
+  width: 207px;
+  height: 207px;
+  border-radius: 50%;
+  object-fit: cover;
+}

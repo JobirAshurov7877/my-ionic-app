@@ -1,0 +1,99 @@
+.register {
+  width: 100%;
+  min-height: 100%;
+  padding: 69px 26px 70px 26px;
+  background-image: linear-gradient(#151521d5, #151521a8),
+    url("../../assets/login-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.register-head {
+  text-align: center;
+  font-family: var(--font-Poppins);
+}
+.register-head h2 {
+  color: #08979c;
+  font-weight: 600;
+  font-size: 24px;
+}
+.register h1 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: var(--font-Inter);
+  font-weight: 700;
+}
+
+.form .input-box {
+  margin-top: 30px;
+  font-family: var(--font-Inter);
+}
+.form .input-label {
+  color: #fff;
+  font-size: 14px;
+}
+.custom-input {
+  margin-top: 8px;
+  font-family: inherit;
+  --placeholder-color: #90a4ae;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid var(#d1d5db);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  --padding-start: 10px;
+}
+ion-button {
+  width: 100%;
+  --border-radius: 8px;
+}
+.custom-button {
+  font-family: var(--font-Inter);
+  --background: linear-gradient(90deg, #24cef0 -6.3%, #24ebca 100.57%);
+  color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+  min-height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  --background-activated: #18cef3;
+}
+.dwider {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dwider .line {
+  background-color: #d1d5db;
+  width: 30%;
+  height: 1px;
+}
+.dwider ion-text {
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 300;
+}
+.google-button {
+  --background: #fff;
+  color: #455a64;
+}
+.sign-in-link {
+  text-align: center;
+  margin-top: 30px;
+}
+.sign-in-link a {
+  background: var(--bg, linear-gradient(90deg, #24cef0 -6.3%, #24ebca 100.57%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+}
+.forget-password {
+  font-size: 14px;
+  color: #24d2ea;
+  font-weight: 400;
+  font-family: inherit;
+}
+.remember-me {
+  font-size: 14px;
+}

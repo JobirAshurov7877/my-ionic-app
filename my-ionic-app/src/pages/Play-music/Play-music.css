@@ -1,0 +1,65 @@
+.play-music .page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play-music .page-header .button {
+  width: 50px;
+  color: #fff;
+}
+.play-music .carusel img {
+  width: 100%;
+  height: 350px;
+  border-radius: 9px;
+}
+.music-control-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.music-control-buttons ion-button {
+  width: 60px;
+  min-height: 60px;
+  color: #fff;
+}
+.music-control-buttons .play-button {
+  font-size: 1.3rem;
+}
+ion-range {
+  --bar-background: #8e8e8e;
+  --bar-background-active: linear-gradient(
+    90deg,
+    #24cef0 -6.3%,
+    #24ebca 100.57%
+  );
+  --bar-height: 3px;
+  --bar-border-radius: 8px;
+  --knob-background: linear-gradient(90deg, #24cef0 -6.3%, #24ebca 100.57%);
+  --knob-size: 12px;
+  height: 10px;
+}
+.music-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.music-time ion-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+}
+.play-music .card {
+  display: flex;
+  align-items: center;
+}
+.play-music .card ion-text {
+  font-family: var(--font-Inter);
+  font-size: 13px;
+  line-height: 30px;
+}
+.play-music .card .name {
+  font-size: 22px;
+  font-weight: 600;
+}

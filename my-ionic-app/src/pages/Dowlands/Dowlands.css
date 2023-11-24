@@ -1,0 +1,23 @@
+.downloads {
+  --background: #151521;
+}
+ion-header ion-text {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: var(--font-Inter);
+  font-weight: 600;
+}
+.downloads .filled-card {
+  background-color: transparent;
+}
+.downloads .filled-card ion-text {
+  font-size: 16px;
+  font-weight: 300;
+  font-weight: 200;
+}
+.downloads .filled-card .name h5 {
+  font-weight: 500;
+  margin: 0;
+  line-height: 0px;
+  font-size: 18px;
+}

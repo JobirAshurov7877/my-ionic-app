@@ -1,0 +1,56 @@
+.favourite {
+  --background: #151521;
+}
+.favourite .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.favourite .head ion-avatar {
+  width: 124px;
+  height: 124px;
+}
+
+.favourite .head .head-icon {
+  width: 45px;
+  min-height: 45px;
+  --background: rgba(217, 217, 217, 0.29);
+  --border-radius: 50%;
+  --padding-start: 0;
+  --padding-end: 0;
+  --padding-top: 0;
+  --padding-bottom: 0;
+}
+.play-list .card {
+  width: 100%;
+  border-radius: 8px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 15px 0;
+}
+.play-list .card.active {
+  background: rgba(217, 217, 217, 0.29);
+}
+.play-list .card .play-button {
+  background: rgba(217, 217, 217, 0.29);
+}
+.play-list .card.active .play-button {
+  background: linear-gradient(90deg, #24cef0 -6.3%, #24ebca 100.57%);
+}
+.play-list .card ion-text {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.play-list .card .name {
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #24cef0 -6.3%, #24ebca 100.57%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

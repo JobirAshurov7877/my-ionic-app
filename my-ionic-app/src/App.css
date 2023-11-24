@@ -1,9 +1,63 @@
-ion-tab-bar {
-  background-color: #4f5258;
-  height: 90px;
-  border-radius: 26px 26px 0px 0px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap");
+
+:root {
+  /* color */
+  --primary-background: #151521;
+  --white-color: #fff;
+  --linear-gradient-color: linear-gradient(
+    90deg,
+    #24cef0 -6.3%,
+    #24ebca 100.57%
+  );
+
+  /* font-family */
+  --font-Roboto: "Roboto", sans-serif;
+  --font-Poppins: "Poppins", sans-serif;
+  --font-Inter: "Inter", sans-serif;
 }
-ion-tab-button {
+.page-header {
+  background: var(--primary-background);
+  color: var(--white-color);
+}
+.page-footer {
+  background: var(--primary-background);
+  color: var(--white-color);
+}
+.page-container {
+  --background: var(--primary-background);
+  background: var(--primary-background);
+}
+.button {
+  --padding-start: 0;
+  --padding-end: 0;
+  --padding-top: 0;
+  --padding-bottom: 0;
+}
+.ion-tab-bar {
+  --background: #24242e;
+  height: 65px;
+}
+
+.ion-tab-bar .tab-selected .svg-with-background {
+  fill: #24cef0;
+  stroke: none;
+}
+.ion-tab-bar .tab-selected .svg-with-background path {
+  stroke: #24cef0;
+}
+.ion-tab-bar .tab-button {
+  position: relative;
+}
+.ion-tab-bar .tab-button::before {
+  position: absolute;
+  content: "";
+  width: 38px;
+  height: 3px;
   background-color: transparent;
-  color: #fff;
+  bottom: 10px;
+  left: 25%;
+  border-radius: 5px;
+}
+.ion-tab-bar .tab-selected.tab-button::before {
+  background-color: #24cef0;
 }

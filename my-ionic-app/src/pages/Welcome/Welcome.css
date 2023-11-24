@@ -1,0 +1,18 @@
+.welcome {
+  background: linear-gradient(167deg, #24cef0 -6.71%, #24f1c3 99.81%);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.welcome .welcome-content {
+  width: 100%;
+  text-align: center;
+}
+.welcome .welcome-content h2 {
+  font-size: 27px;
+}
+.welcome .welcome-content h3 {
+  font-size: 24px;
+  color: #08979c;
+}

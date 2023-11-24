@@ -1,0 +1,6 @@
+.notification {
+  --background: #151521;
+}
+.notification .filled-card ion-text {
+  font-size: 12px;
+}
